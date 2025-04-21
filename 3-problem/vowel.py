@@ -9,7 +9,8 @@ def count_vowels(s: str) -> int:
     vowels = set('aeiou')
     count = 0
     for char in s.lower():
-        if char in vowels:
+        if char in vowels:   # in is a keyword used to check for membership within an iterable, such as a list, string, tuple, dictionary, or set. It's a simple and powerful way to see if an element exists within a collection.
+
             count += 1
     return count
 
